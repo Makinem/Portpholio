@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Портфолио</h1>
+        <hr>
+        <a href="#about">Обо мне</a>
+        <a href="#That">Скилы</a>
+
+    </header>
+    <main>
+        <section id="about">
+            <hr>
+            <h2>Про меня</h2>
+            <hr>
+        <figure>
+    <img src="Photo.jpeg"
+    alt="Мужчина молодой"
+    width="480" height="360">
+   <figcaption>Фото статного мужчины</figcaption>
+    </figure>
+        <p>Я Рустамов Эркин, мне 17 лет, живу в Кыргызстане</p>
+        <p>На данный момент учусь в колледже на программиста</p>
+        <p>Хочу окончить обучение и использовать знания для своего будущего</p>
+        </section>
+        <hr>
+        <h2 id="That">Навыки</h2> 
+        <hr>
+    </main>
+    <footer>
+        <table>
+    <tr>
+       <table border="1">
+        <tr>
+            <td>программирование</td>
+            <td>Пайтон</td>
+        </tr>
+        <tr>
+            <td>Джава</td>
+            <td>Английский</td>
+        </tr>
+        <tr>
+            <td>Математика</td>
+            <td>Веб-программирование</td>
+
+        </tr>
+    </table>
+    </tr>
+</table>
+    </footer>
+
+
+</body>
+</html>
