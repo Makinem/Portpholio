@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trail Club</title>
+</head>
+<body>
+
+<h1>Trail Club</h1>
+
+<p>Student hiking club · Classroom example</p>
+
+<p>
+    <a href="index.html">Home</a>&nbsp;
+    <a href="routes.html">Routes</a>&nbsp;
+    <a href="apply.html">Apply for a trip</a>
+</p>
+
+<h2>Your Next Adventure Starts Here</h2>
+
+<img src="banner.jpg" alt="Trail Club Banner" width="600">
+
+<p>Plan carefully. Travel together. Leave no trace.</p>
+
+<p>We organize student walks and practice responsible trip planning.</p>
+
+<p>
+    <a href="routes.html">Compare routes</a>&nbsp;
+    <a href="apply.html">Apply for a place</a>
+</p>
+
+<h2>Before You Go</h2>
+
+<ol>
+    <li>
+        Choose a route.
+        <ul>
+            <li>Check distance and duration.</li>
+            <li>Read the preparation checklist.</li>
+        </ul>
+    </li>
+    <li>
+        Prepare your equipment.
+        <ul>
+            <li>Water and food</li>
+            <li>Comfortable shoes</li>
+            <li>Weather-appropriate clothing</li>
+        </ul>
+    </li>
+    <li>Complete the application form.</li>
+</ol>
+
+<details>
+    <summary>What does "leave no trace" mean?</summary>
+</details>
+
+<h2>Club Notice</h2>
+
+<p>Our next planning meeting is on 15 October at 15:30.</p>
+
+<p>These trips are examples for this assignment; no real booking is available.</p>
+
+<hr>
+
+<p>Trail Club · Fictional trips and prices for HTML practice</p>
+
+<p>
+    <a href="#top">Back to top ↑</a>
+</p>
+
+</body>
+</html>
