@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <p>ALA-TOO COLLEGE WEB PROGRAMMING</p>
+        
+        <h1>Nurdoolot's Portfolio</h1>
+        
+        <p>Student. Curious learner. Future web developer.</p>
+        
+        <nav>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#mp">My work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <br>
+    </header>
+    <main>
+        <img src="media col/hero.svg" alt="">
+        <section id="about">
+            <h2>01-About Me</h2>
+            
+            <p>My name is Mamatkadyrov Nurdooolot. I'm 16 years old and I'm a beginner developer</p>
+            <p>I've been into programming and learning programming languages since I was 13</p>
+            <p>Recently resumed my activities after a long pause</p>
+        </section>
+        <details>
+            <summary>What am I learned?</summary>
+        </details>
+
+        <hr>
+
+        <section id="skills">
+            <h2>02-Skills & Learning</h2>
+            <ul>
+                <li>Semantic page elements: header, main, and footer.</li>
+                <li>Links, lists and images.</li>
+                <li>Audio, video and accessible form labels.</li>
+            </ul>
+            <p>
+                    <label for="">Portfolio Section completed:</label>
+                    <input type="range">
+                    <label for="">3/5</label>
+            </p>
+            <p>
+                    <label for="">My HTML self assessment:</label>
+                    <input type="range">
+                    <label for="">70/100</label>
+            </p>
+            <p>Skills I'm currently learning</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skills</th>
+                        <th>Level</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td><b>Python</b></td>
+                    <td>Learning</td>
+                    <td>Base syntaxis</td>
+                </tr>
+                <tr>
+                    <td><b>HTML</b></td>
+                    <td>Learning</td>
+                    <td>Base syntaxis</td>
+                </tr>
+                <tr>
+                    <td><b>Java</b></td>
+                    <td>Learning</td>
+                    <td>Base syntaxis</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <br>
+
+        <hr>
+
+        <section id="mp">
+                    <h1>03-My Work</h1>
+                    <h3>My First Portfolio</h3>
+                    <p>Personal project</p>
+                    <img src="media col/project.svg" alt="">
+        <p>I built this page to introduce myself and keep my work in one place.</p>
+        <ol>
+            <li> Create the harder, main content and footer</li>
+            <li> Add About,Skills,Work and Contact sections.</li>
+            <li> Test links, media files and form labels.</li>
+        </ol>
+        <details>
+            <summary>What was difficult?</summary>
+        </details>
+        <h2>Media Practide</h2>
+        <p>A short sample sound:</p>
+
+        <p>
+        <audio controls>
+            <source src="media/mogged.mp3" type="audio/mpeg">
+        </audio>
+        </p>
+
+         <h2>A short Portfolio preview</h2>
+        <p>
+        <video controls width="480">
+            <source src="media col/portfolio-demo.mp4"video/mp4">
+            <track src="media/transcript_1790744119745.vtt" kind="captions" srclang="ru" label="Русский" default></track>
+        </video>
+        </p>
+        
+        </section>
+
+
+        <section id="Contact">
+            <form action="">
+            <fieldset>
+                <legend>
+                    Contact form
+                </legend>
+                <p>
+                    <label for="">Your name</label>
+                    <input type="text">
+                </p>
+                <p>
+                    <label for="">Email adress</label>
+                    <input type="text">
+                </p>
+                <p>
+                    <label for="">Topic</label>
+                    <select name="cartoon" id="">
+                        <optgroup label="Watterson's family">
+                            <option value="">My Project</option>
+                            <option value="">Darwin</option>
+                            <option value="">Anais</option>
+                            <option value="">Nicole</option>
+                            <option value="">Rischard</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="">Message</label>
+
+                        <textarea name="" id=""></textarea>
+                </p>
+                <p><Button>Send massege</Button> <Button>Clear form</Button></p>
+            </fieldset>
+        </form>
+
+        </section>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
